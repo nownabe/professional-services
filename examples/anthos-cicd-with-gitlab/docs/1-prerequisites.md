@@ -36,11 +36,11 @@ Create a [new public group](https://gitlab.com/groups/new) and  give it a name o
 
 Follow the Google Cloud SDK [documentation](https://cloud.google.com/sdk/docs/install) to install and configure the `gcloud` command line utility.
 
-At the time this doc was created, some tools used in this tutorial are still in beta. To be able to utilize them, install `gcloud beta`
+At the time this doc was created, some tools used in this tutorial are still in beta or alpha. To be able to utilize them, install `gcloud beta` and `gcloud alpha`:
 
 
 ```bash
-gcloud components install beta
+gcloud components install beta alpha
 ```
 
 
